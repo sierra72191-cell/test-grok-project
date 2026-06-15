@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grok Sandbox - Day 1</title>
+    <style>
+        body {
+            margin: 0;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background: linear-gradient(135deg, #0f0c29, #302b63, #24243e);
+            font-family: 'Arial', sans-serif;
+            color: white;
+            overflow: hidden;
+        }
+        .sandbox {
+            width: 80%;
+            max-width: 800px;
+            height: 80%;
+            max-height: 600px;
+            background: rgba(255, 255, 255, 0.1);
+            border: 3px solid rgba(255, 255, 255, 0.3);
+            border-radius: 20px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            box-shadow: 0 0 50px rgba(138, 43, 226, 0.5);
+            backdrop-filter: blur(10px);
+            text-align: center;
+            padding: 40px;
+            position: relative;
+        }
+        .sandbox::before {
+            content: '';
+            position: absolute;
+            top: -2px;
+            left: -2px;
+            right: -2px;
+            bottom: -2px;
+            border-radius: 22px;
+            background: linear-gradient(45deg, #8a2be2, #00ffcc, #ff00ff);
+            z-index: -1;
+            filter: blur(20px);
+            opacity: 0.7;
+        }
+        h1 {
+            font-size: 4rem;
+            margin: 0 0 20px 0;
+            text-shadow: 0 0 20px rgba(138, 43, 226, 0.8);
+        }
+        p {
+            font-size: 1.5rem;
+            opacity: 0.9;
+        }
+        .footer {
+            position: absolute;
+            bottom: 30px;
+            font-size: 1rem;
+            opacity: 0.7;
+        }
+    </style>
+</head>
+<body>
+    <div class="sandbox">
+        <h1>Day 1</h1>
+        <p>Welcome to the Grok Sandbox!</p>
+        <p>Let's build something awesome together 🚀</p>
+        <div class="footer">Grok x Sierra72191-cell</div>
+    </div>
+</body>
+</html>
