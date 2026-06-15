@@ -1,2 +1,5 @@
-# test-grok-project
-A test repository created with Grok
+# Test Grok Project
+
+Hello from Grok! This is a test repository.
+
+Let's build something cool together! 🚀
